@@ -79,6 +79,19 @@ img.img-monumen_binjai {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .title-page {
+    font-size: 38px;
+    line-height: 43px !important;
+  }
+  p.description-home {
+    line-height: 28px;
+  }
+  button.informasi {
+    padding: 0 25px;
+  }
+  button.lihat-peta {
+    padding: 0 25px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
