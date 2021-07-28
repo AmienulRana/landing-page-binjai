@@ -22,14 +22,14 @@ p.description-home {
   color: #392e24;
 }
 button.informasi {
-  width: 25%;
+  width: max-content;
   background: transparent;
   border: 1px solid #34a653;
   color: #34a653;
   height: 35px;
 }
 button.lihat-peta {
-  width: 25%;
+  width: max-content;
   background: #34a653;
   border: none;
   color: white;
@@ -44,8 +44,11 @@ button.lihat-peta {
   height: 27px;
   color: #cdcdcd;
 }
+.col-monumen {
+  height: 100vh;
+}
 img.img-monumen_binjai {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 .col-monumen .position-absolute {
@@ -62,23 +65,16 @@ img.img-monumen_binjai {
 @media (max-width: 575.98px) {
   .title-page {
     font-size: 38px;
+    line-height: 43px !important;
   }
   p.description-home {
-    line-height: 30px;
+    line-height: 28px;
   }
   button.informasi {
-    width: max-content;
-    padding: auto 10px;
-    background: transparent;
-    border: 1px solid #34a653;
-    color: #34a653;
-    height: 35px;
+    padding: 0 25px;
   }
   button.lihat-peta {
-    width: max-content;
-    background: #34a653;
-    border: none;
-    color: white;
+    padding: 0 25px;
   }
 }
 
