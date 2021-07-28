@@ -1,0 +1,95 @@
+/* logo */
+.container-logo {
+  margin-top: 25px;
+}
+.img-logo {
+  width: 55px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.title-page {
+  font-family: "Sahitya", serif;
+  color: #34a653;
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 60px;
+}
+p.description-home {
+  line-height: 32px;
+  font-size: 18px;
+  font-family: "Poppins", sans-seri;
+  color: #392e24;
+}
+button.informasi {
+  width: 25%;
+  background: transparent;
+  border: 1px solid #34a653;
+  color: #34a653;
+  height: 35px;
+}
+button.lihat-peta {
+  width: 25%;
+  background: #34a653;
+  border: none;
+  color: white;
+}
+/* icons */
+.div-icons {
+  width: 70%;
+  margin: 70px auto 0px;
+}
+.container .div-icons ion-icon {
+  width: 27px;
+  height: 27px;
+  color: #cdcdcd;
+}
+img.img-monumen_binjai {
+  height: 100%;
+  width: 100%;
+}
+.col-monumen .position-absolute {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 50%;
+  background: black;
+  opacity: 0.5;
+  height: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .title-page {
+    font-size: 38px;
+  }
+  p.description-home {
+    line-height: 30px;
+  }
+  button.informasi {
+    width: max-content;
+    padding: auto 10px;
+    background: transparent;
+    border: 1px solid #34a653;
+    color: #34a653;
+    height: 35px;
+  }
+  button.lihat-peta {
+    width: max-content;
+    background: #34a653;
+    border: none;
+    color: white;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
