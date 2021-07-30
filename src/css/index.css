@@ -1,4 +1,7 @@
 /* logo */
+p {
+  font-family: "Poppins", sans-serif;
+}
 .container-logo {
   margin-top: 25px;
 }
@@ -21,15 +24,14 @@ p.description-home {
   font-family: "Poppins", sans-seri;
   color: #392e24;
 }
-button.informasi {
-  width: max-content;
+a.beranda {
   background: transparent;
   border: 1px solid #34a653;
   color: #34a653;
-  height: 35px;
+  padding: 5px 20px;
 }
-button.lihat-peta {
-  width: max-content;
+a.lihat-peta {
+  padding: 5px 20px;
   background: #34a653;
   border: none;
   color: white;
@@ -61,8 +63,128 @@ img.img-monumen_binjai {
   opacity: 0.5;
   height: 100%;
 }
+/* beranda */
+.jumbotron {
+  background: #34a653 !important;
+  border-radius: 0 !important;
+}
+.jumbotron-beranda p {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.wrapper {
+  margin-top: 150px;
+}
+.container img.img-peta {
+  height: 390px;
+}
+.container-luas-wilayah p {
+  font-family: "Poppins", sans-serif;
+  color: #34a653;
+  font-size: 19px;
+}
+.container-luas-wilayah h1 {
+  font-size: 54px;
+  color: #34a653;
+  font-weight: 900;
+}
+.container-luas-wilayah span {
+  font-size: 25px !important;
+  font-weight: normal;
+  color: #34a653;
+}
+.container-luas-wilayah span.kuadarat {
+  position: absolute;
+  top: px;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.container p.title-detail {
+  font-family: "Poppins", sans-serif;
+  color: #34a653;
+  font-size: 17px;
+}
+.container.detail-kota span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #9a9a9a;
+  font-weight: 700;
+}
+.container.detail-kota .nama-kota p span {
+  color: black;
+  margin-right: 15px;
+}
+.container.detail-kota .nama-kota p {
+  line-height: 20px;
+  font-size: 14px;
+}
+.container.detail-kota .col-ruang_terbuka h4 {
+  font-family: "Poppins", sans-serif;
+  color: #34a653;
+  font-weight: 800;
+}
+.col-ruang_terbuka p {
+  font-size: 15px;
+}
+.row-kalkulator p {
+  line-height: 28px;
+  color: #545353;
+}
+.row-kalkulator button {
+  background: #34a653;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+}
+/* page About */
+h1.title-about {
+  font-family: "Sahitya", sans-serif;
+  color: #34a653;
+  font-weight: bold;
+}
+img.img-about {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+p.nama-dosen {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+}
+@media (min-width: 0px) and (max-width: 767.98px) {
+  .title-page {
+    font-size: 36px;
+    line-height: 43px !important;
+  }
+  p.description-home {
+    line-height: 28px;
+  }
+  a.beranda {
+    padding: 0 25px;
+  }
+  a.lihat-peta {
+    padding: 0 25px;
+  }
+  .col-title-jumbotron {
+    margin-top: 25px;
+  }
+  .col-total-wilayah {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .col-total-wilayah div.d-flex {
+    justify-content: center;
+  }
+  .col-ruang_terbuka h4 {
+    font-size: 21px !important;
+  }
+}
 
-@media (max-width: 575.98px) {
+/* @media (min-width: 576px) and (max-width: 767.98px) {
   .title-page {
     font-size: 38px;
     line-height: 43px !important;
@@ -70,31 +192,18 @@ img.img-monumen_binjai {
   p.description-home {
     line-height: 28px;
   }
-  button.informasi {
+  a.beranda {
     padding: 0 25px;
   }
-  button.lihat-peta {
+  a.lihat-peta {
     padding: 0 25px;
   }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .title-page {
-    font-size: 38px;
-    line-height: 43px !important;
-  }
-  p.description-home {
-    line-height: 28px;
-  }
-  button.informasi {
-    padding: 0 25px;
-  }
-  button.lihat-peta {
-    padding: 0 25px;
-  }
-}
+} */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .col-ruang_terbuka {
+    border-right: 5px solid white;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
